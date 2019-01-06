@@ -12,7 +12,7 @@
 DES是使用最广泛的**对称密码**：数据加密标准（Data Encryption Standard）。<br>
 在对称密码系统（也叫做私钥密码系统）中，加密和解密使用**相同的密钥**。<br>
 ![对称加密](Images/des.png)
-关于DES的原理以及代码实现，请点[这里](DES.ipynb)。
+<br>关于DES的原理以及代码实现，请点[这里](DES.ipynb)。
 ## [RSA](RSA.ipynb)
 RSA是著名的**非对称密码**：1977年由Ron Rivest、Adi Shamir、Leonard Adleman一起提出来的。RSA就是他们三人姓氏开头字母拼在一起组成的。<br>
 在非对称密码系统（也叫做公钥密码系统）中，加密和解密由一对密钥来完成，分别称为**公钥和私钥**，公钥可以公开，私钥要保密。<br>
@@ -21,6 +21,6 @@ RSA是著名的**非对称密码**：1977年由Ron Rivest、Adi Shamir、Leonard
 - A用**B的公钥**加密信息，并将信息发给B。
 - B用自己的**私钥**解密这个信息。
 ![非对称加密](Images/rsa.png)
-关于RSA的原理以及代码实现，请点[这里](RSA.ipynb)。
+<br>关于RSA的原理以及代码实现，请点[这里](RSA.ipynb)。
 
 
