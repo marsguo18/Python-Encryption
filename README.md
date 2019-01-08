@@ -22,5 +22,11 @@ RSA是著名的**非对称密码**：1977年由Ron Rivest、Adi Shamir、Leonard
 - B用自己的**私钥**解密这个信息。
 ![非对称加密](Images/rsa.png)
 <br>关于RSA的原理以及代码实现，请点[这里](RSA.ipynb)。
-
+## 对称密钥算法与非对称密钥算法
+![对比](Images/difference-of-two-encryptrons.png)
+## 混合密钥密码算法
+混合密钥密码算法结合DES和RSA的优点：
+- DES：对称密钥的**速度快**
+- RSA：非对称密钥的**密钥交换优点**
+![混合密钥密码算法](Images/improve-encryptrons.png)
 
